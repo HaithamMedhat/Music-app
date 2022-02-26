@@ -1,0 +1,66 @@
+ul{
+    list-style-type: none;
+}
+.about{
+    background: rgb(84,83,112);
+    background: linear-gradient(90deg, rgba(84,83,112,1) 0%,
+     rgba(88,82,182,1) 100%, rgba(208,208,227,1) 100%, rgba(0,212,255,1) 100%);
+}
+ul li{
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul i {
+    font-size: 18px;
+    margin: 5px;
+}
+ul li span {
+    display: inline-block;
+    padding: 0 6px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(106, 106, 209);
+}
+
+.card_edit{
+    height: 600px;
+}
+.card_he{
+    min-height: 70%;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.about-me h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    padding: 50px;
+}
+
+.about-p {
+    top: 45%;
+    left: 42%;
+    color: rgba(0, 0, 0, .6);
+}
+
+.about-p::after {
+    content: "";
+    color: white;
+    background-color: #20c997;
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    height: 3px;
+    width: 75px;
+    padding-top: 5px;
+    margin-top: 3px;
+}
+
+.about-me .text-muted {
+    color: #dee3e4 !important;
+}

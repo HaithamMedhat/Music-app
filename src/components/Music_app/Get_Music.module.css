@@ -1,0 +1,32 @@
+.input_style{
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    font: inherit;
+    padding-left: 0.5rem;
+}
+
+.active{
+    color: aquamarine;
+    text-decoration: none;
+  }
+  .normal {
+    color: white;
+    padding: 5px;
+    text-decoration: dotted;
+  }
+  .normal:hover{
+    color: aquamarine ;
+  }
+
+  .he{
+    /* background: linear-gradient(90deg, rgba(104,208,123,1) 0%, rgba(0,180,255,1) 100%); */
+    background: linear-gradient(90deg, rgba(213,120,205,1) 0%, rgba(255,170,170,1) 100%);
+    height: 8vh;
+}
+.height{
+     min-height: calc(100vh - 23vh);
+    /* background: linear-gradient(90deg, rgba(104,208,123,1) 0%, rgba(0,180,255,1) 100%) */
+    background: linear-gradient(90deg, rgba(213,120,205,1) 0%, rgba(255,170,170,1) 100%);
+}

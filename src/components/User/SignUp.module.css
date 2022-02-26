@@ -1,0 +1,13 @@
+.he{
+    height: calc(100vh - 15vh);
+    color: white;
+    padding-bottom: 30px;
+    background: linear-gradient(90deg, rgba(104,208,123,1) 0%, rgba(0,180,255,1) 100%);
+
+
+}
+.he form{
+    border-radius: 10px;
+    background: rgb(0, 0, 0)
+
+}

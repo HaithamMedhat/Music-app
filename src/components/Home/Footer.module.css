@@ -1,0 +1,17 @@
+.footer-style{
+    background-color: black;
+
+}
+.item ul{
+    list-style-type: none;
+}
+ .fa-brands_style{
+    font-size: 25px;
+}
+.item ul .fa-brands_style:hover{
+    color: rgb(166, 143, 189);
+    font-size: 30px;
+    cursor: pointer;
+    border-radius:10%;
+}
+
